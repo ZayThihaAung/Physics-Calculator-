@@ -78,10 +78,3 @@ MIT — see [LICENSE](LICENSE).
 Useful links
 - Issues: https://github.com/ZayThihaAung/Physics-Calculator-/issues
 - Pull requests: https://github.com/ZayThihaAung/Physics-Calculator-/pulls
-
-How to help get stars
-- Add a short demo GIF in docs/assets/demo.gif
-- Add clear examples and CLI quick commands
-- Publish to PyPI and add a pip install badge
-- Create a short demo video (30–60s) and link to it in README
-- Add repository topics: physics, calculator, education, STEM, python, cli
