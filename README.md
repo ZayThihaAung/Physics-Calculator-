@@ -14,7 +14,6 @@ Why this repo?
 
 Demo
 ![demo placeholder](docs/assets/demo.gif)  
-(Replace with a short GIF or image showing the calculator in action.)
 
 Features
 - Kinematics: displacement, velocity, acceleration
