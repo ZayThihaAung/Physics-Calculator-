@@ -14,6 +14,8 @@ Why this repo?
 
 Demo
 ![demo placeholder](docs/assets/demo.gif)  
+![Quick demo](docs/assets/demo.png)
+Or ![Watch full video demo](docs/assets/demo.mp4) 
 
 Features
 - Kinematics: displacement, velocity, acceleration
@@ -64,12 +66,6 @@ pytest
 
 Contributing
 Contributions are very welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for how to file issues and PRs.
-
-Roadmap (short)
-- Add unit support (pint)
-- Published package on PyPI
-- Interactive web demo (GitHub Pages)
-- More worked examples for each topic
 
 Support / License
 MIT — see [LICENSE](LICENSE).
