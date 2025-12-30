@@ -42,6 +42,11 @@ tk.Label(root, text="Initial Velocity (km/s)", font=("Helvetica", 10)).pack()
 input = tk.Entry(root, font=("Helvetica", 14))
 input.pack(pady=5, fill="x")
 
+result = tk.StringVar(value="Initial Velocity: —")
+result2 = tk.StringVar(value="Escape Velocity: —")
+tk.Label(root, textvariable=result, font=("Arial", 14)).pack(padx=10, pady=5)
+tk.Label(root, textvariable=result2, font=("Arial", 14)).pack(padx=10, pady=5)
+
 def simulate() :
   planet_name = combo.get() 
   # Read user input (km/s) and convert to m/s for SI calculations
@@ -74,8 +79,8 @@ def simulate() :
         break
       t += interval
 
-  print(f"escape_v (km/s): {escape_v:.4f}, input (km/s): {velocity:.4f}")
-  print(h, t)
+  result.set(f"Initial Velocity: {velocity:.2f} km/s")
+  result2.set(f"Escape Velocity: {escape_v:.2f} km/s")
 
   if velocity >= escape_v:
     messagebox.showinfo("Result", "Rocket escapes the planet's gravity!")
